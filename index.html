@@ -1,0 +1,13 @@
+<input type="text" name="" id="inputBox" onkeyup="res()">
+<!-- <button onclick="res()">BTN</button> -->
+<h1 id="result"></h1>
+
+<script>
+   let box=document.getElementById('inputBox')
+   let result=document.getElementById('result')
+
+   function res(){
+      result.textContent=box.value
+   }
+
+</script>
